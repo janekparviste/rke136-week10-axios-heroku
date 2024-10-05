@@ -1,0 +1,57 @@
+body {
+    background-color: aquamarine;
+}
+
+.movie-info-actions {
+    font-size: 1.1rem;
+}
+
+.movie-info-actions ul {
+    list-style: none;
+}
+
+.movie-info-actions ul li {
+    display: inline-block /*your code here*/;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(3, 37, 65);
+}
+
+.movie-info-actions ul li a {
+    text-decoration: none /*your code here*/;
+    color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 2rem;
+    /*margin-top: 22rem;*/
+    /* text-align: center your code here*/;
+    color: #777;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block /*your code here*/;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+footer ul li a {
+    font-size: 1.5rem;
+    text-transform: uppercase /*your code here*/;
+    text-decoration: none;
+    color: #777;
+}
