@@ -2,6 +2,35 @@ body {
     background-color: aquamarine;
 }
 
+.movie-rating {
+    display: inline-block /*your code here*/;
+    border: 1px solid #151515;
+    padding: 0.3rem /*your code here*/;
+    border-radius: 5px;
+}
+
+.movie-duration {
+    margin-left: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.movie-duration:before {
+    content: '\2022' /*your code here*/;
+}
+
+.movie-info-quote {
+    color: #151515a4;
+    font-style: italic /*your code here*/;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.movie-info-overview-title {
+    text-transform: capitalize /*your code here*/;
+    letter-spacing: 0.1rem;
+}
+
 .movie-info-actions {
     font-size: 1.1rem;
 }
