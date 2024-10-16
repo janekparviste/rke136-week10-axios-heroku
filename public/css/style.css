@@ -87,3 +87,9 @@ input {
     width: 5rem;
     font-size: 1.2rem;
 }
+
+.chat-container {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
